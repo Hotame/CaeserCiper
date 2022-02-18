@@ -1,8 +1,6 @@
 from CC import alphabet
 
 # Write Code 💻
-
-
 def caeser(start_Text, shift_Amount, ciper_Action):
     final_Text = ""
     shift_Amount %= len(alphabet)
